@@ -17,17 +17,19 @@ def filter_number_list(the_numberlist, criteria_def):
 
       first_number = the_numberlist[first_pos]
       second_number = the_numberlist[second_pos]
+      is_true = criteria_def(first_number, second_number)
 
 
-
-
-      print(first_number, second_number)
+      print(first_number, second_number, is_true)
       pass
   pass
 # block ends
 
 def is_sum_2020(the_first_number, the_second_number):
-  pass
+  the_sum = the_first_number + the_second_number
+  if the_sum == 2020:
+    return True
+  return False
 # block ends
 
 # main
