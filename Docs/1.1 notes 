@@ -1,6 +1,6 @@
 steps for solving day 1 part 1 AOC 2020:
 
-Get list of numbers
+Get list of numbers 
 
 go through all the numbers, each number is stored in first variable 
 
