@@ -1,0 +1,17 @@
+steps for solving day 1 part 1 AOC 2020:
+
+Get list of numbers
+
+go through all the numbers, each number is stored in first variable 
+
+go through all the numbers again, exept for number if first variable. This number is stored in second variable
+
+add the numbers stored in first an second variable
+
+if a pair equals 2020 then keep them
+
+if some doesn't equal 2020 then continue
+
+when the 2 numbers we need are found then multipy them
+
+display the result of the multiplied 
